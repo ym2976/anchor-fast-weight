@@ -1,0 +1,169 @@
+[
+  {
+    "id": "ema_a0",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.0
+    }
+  },
+  {
+    "id": "ema_a0.5",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.5
+    }
+  },
+  {
+    "id": "ema_a0.8",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.8
+    }
+  },
+  {
+    "id": "ema_a0.9",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.9
+    }
+  },
+  {
+    "id": "ema_a0.95",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.95
+    }
+  },
+  {
+    "id": "ema_a0.97",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.97
+    }
+  },
+  {
+    "id": "ema_a0.99",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.99
+    }
+  },
+  {
+    "id": "ema_a0.995",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.995
+    }
+  },
+  {
+    "id": "ema_a0.999",
+    "state": "ema",
+    "state_kw": {
+      "alpha": 0.999
+    }
+  },
+  {
+    "id": "gated_ema_t0.2",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.2
+    }
+  },
+  {
+    "id": "gated_ema_t0.3",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.3
+    }
+  },
+  {
+    "id": "gated_ema_t0.4",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.4
+    }
+  },
+  {
+    "id": "gated_ema_t0.5",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.5
+    }
+  },
+  {
+    "id": "gated_ema_t0.6",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.6
+    }
+  },
+  {
+    "id": "gated_ema_t0.7",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.7
+    }
+  },
+  {
+    "id": "gated_ema_t0.8",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.8
+    }
+  },
+  {
+    "id": "gated_ema_t0.9",
+    "state": "gated_ema",
+    "state_kw": {
+      "alpha": 0.9,
+      "theta": 0.9
+    }
+  },
+  {
+    "id": "oracle_vad_a0.9",
+    "state": "vad_gated",
+    "state_kw": {
+      "alpha": 0.9
+    },
+    "oracle_activity": true
+  },
+  {
+    "id": "oracle_vad_a0.95",
+    "state": "vad_gated",
+    "state_kw": {
+      "alpha": 0.95
+    },
+    "oracle_activity": true
+  },
+  {
+    "id": "oracle_vad_a0.97",
+    "state": "vad_gated",
+    "state_kw": {
+      "alpha": 0.97
+    },
+    "oracle_activity": true
+  },
+  {
+    "id": "oracle_vad_a0.99",
+    "state": "vad_gated",
+    "state_kw": {
+      "alpha": 0.99
+    },
+    "oracle_activity": true
+  },
+  {
+    "id": "oracle_vad_a0.995",
+    "state": "vad_gated",
+    "state_kw": {
+      "alpha": 0.995
+    },
+    "oracle_activity": true
+  }
+]
